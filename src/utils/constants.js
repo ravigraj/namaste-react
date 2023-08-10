@@ -3,3 +3,10 @@ export const CDN_URL =
 
 export const LOGO_URL =
   "https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png";
+
+// Swiggy API to get Restaurant Menu data with corsproxy
+export const swiggy_menu_api_URL =
+  "https://corsproxy.io/?https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=21.1702401&lng=72.83106070000001&&submitAction=ENTER&restaurantId=";
+
+export const MENU_API_URL =
+  "https://corsproxy.io/?https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=21.1702401&lng=72.83106070000001&&submitAction=ENTER&restaurantId=";

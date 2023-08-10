@@ -2,6 +2,7 @@ import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/mockData";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [resListState, setResListState] = useState([]); // state variable of React
@@ -29,6 +30,7 @@ const Body = () => {
       json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
+
   //   if (resListState.length === 0) {
   //     return <Shimmer />;
   //   }
@@ -76,7 +78,12 @@ const Body = () => {
       </div>
       <div className="restaurant-container">
         {resFilterListState.map((resListItem) => (
-          <RestaurantCard key={resListItem.info.id} resData={resListItem} />
+          <Link
+            key={resListItem.info.id}
+            to={"/restaurant/" + resListItem.info.id}
+          >
+            <RestaurantCard resData={resListItem} />
+          </Link>
         ))}
       </div>
     </div>
