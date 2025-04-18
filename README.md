@@ -6,6 +6,6 @@ Each commit in this repo is pushed to a separate branch to track progress step b
 
 ## Branch Naming Convention
 
-Each branch is named as: `step-x`, where `x` is the commit number.
+Each branch is named as `EP: X`, where `X` is the commit Episode Name.
 
 Enjoy the learning journey! 🚀
