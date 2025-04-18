@@ -1,7 +1,7 @@
 {
-  "name": "namaste-react",
+  "name": "ep2-igniting-app",
   "version": "1.0.0",
-  "description": "This project contains learnings from the Namaste React series.",
+  "description": "",
   "scripts": {
     "test": "jest"
   },
@@ -10,11 +10,7 @@
   "devDependencies": {
     "parcel": "^2.14.4"
   },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  },
-  "browsersList":[
+  "browserslist": [
     "last 2 versions"
   ]
 }
