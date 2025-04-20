@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This project contains learnings from the Namaste React series.",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Govindraj, Ravi",
@@ -14,7 +16,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-  "browsersList":[
+  "browsersList": [
     "last 2 versions"
   ]
 }
